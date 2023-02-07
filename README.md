@@ -1,0 +1,1 @@
+# somiibo-microservice-template
