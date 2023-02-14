@@ -17,7 +17,8 @@ jobs:
     # commit the file
       - name: Commit date file
         run: |
-          git config --local user.name "${{ github.actor }}"
+          git config --local user.name "GitHub Actions"
+          git config --local user.email "actions@github.com"
           git add src/date.txt
           git commit -m "Update date.txt"
     # push the commit
