@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v3    
       # create a a file in the repo with the current date
       - name: Create a file with the current date
-        run: echo $(date) > /src/date.txt
+        run: echo $(date) > src/date.txt
       # commit the file
       - name: Commit the file
         run: |
