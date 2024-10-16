@@ -4,9 +4,7 @@
   "description": "Download Somiibo, a free social media automation platform that organically grows your online presence and gets you more followers.",
   "main": "src/index.js",
   "scripts": {
-    "start1": "node ./node_modules/app-downloader",
     "start": "node -e \"require('app-downloader')()\"",
-    "start3": "node ./src/index.js"
   },
   "engines": {
     "node": ">=18"
