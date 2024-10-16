@@ -68,3 +68,4 @@ node_modules/
 .DS_Store
 
 # Custom
+package-lock.json
