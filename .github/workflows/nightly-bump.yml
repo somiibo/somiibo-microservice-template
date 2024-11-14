@@ -14,7 +14,7 @@ jobs:
     # create a file at src/date.txt with the current date
       - name: Create date file
         run: |
-          mkdir src
+          mkdir -p src
           echo $(date) > src/date.txt
     # commit the file
       - name: Commit date file
